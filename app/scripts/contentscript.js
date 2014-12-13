@@ -8,4 +8,4 @@
 
 console.log('\'Allo \'Allo! Content script');
 
-// console.log(chrome.extension.getURL(tab.url));
+// console.log(document.body.innerText);
