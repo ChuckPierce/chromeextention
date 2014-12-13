@@ -1,0 +1,9 @@
+{
+  "name": "diffarticle",
+  "version": "0.0.0",
+  "dependencies": {
+    "bootstrap": "~3.3.1",
+    "seiyria-bootstrap-slider": "~4.3.0"
+  },
+  "devDependencies": {}
+}

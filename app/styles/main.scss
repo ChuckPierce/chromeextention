@@ -1,0 +1,22 @@
+$padding: 20px;
+$bottom: 30px;
+
+
+body {
+  padding: $padding;
+}
+
+h1 {
+	font-weight: bold;
+	margin-bottom: $bottom;
+}
+
+button {
+	float: right;
+	margin-bottom: $bottom;
+}
+
+#ex1Slider .slider-selection {
+	background: #BABABA;
+	margin-bottom: $bottom;
+}
