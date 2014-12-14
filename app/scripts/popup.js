@@ -19,16 +19,13 @@ $('#ex1').slider({
 
 $('#submit').click(function() {
 		console.log('I clicked!');
-		var sliderYear = $('#ex1').slider('getValue');
-		console.log(sliderYear);
+		// var sliderYear = $('#ex1').slider('getValue');
+		// console.log(sliderYear);
 		chrome.tabs.getSelected(null, function(tab) {
-			// $.post('/', {url: tab.url, years: sliderYear})
-			// .done(function(newUrl) {
-			// 	chrome.tabs.create({url: newUrl});
-			// });
-
-
-			// chrome.tabs.create({url: tab.url});
+			$.post('/', {url: tab.url, years: sliderYear})
+			.done(function(newUrl) {
+				chrome.tabs.create({url: newUrl});
+			});
 		});
 	});
 
