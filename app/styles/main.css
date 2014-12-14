@@ -1,21 +1,22 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chuckpierce\/article-change-ex\/app\/styles\/main\.scss}line{font-family:\000035}}
 body {
   padding: 20px;
+  width: 300px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chuckpierce\/article-change-ex\/app\/styles\/main\.scss}line{font-family:\000039}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chuckpierce\/article-change-ex\/app\/styles\/main\.scss}line{font-family:\0000310}}
 h1 {
   font-weight: bold;
   margin-bottom: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chuckpierce\/article-change-ex\/app\/styles\/main\.scss}line{font-family:\0000314}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chuckpierce\/article-change-ex\/app\/styles\/main\.scss}line{font-family:\0000315}}
 button {
   float: right;
   margin-bottom: 30px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chuckpierce\/article-change-ex\/app\/styles\/main\.scss}line{font-family:\0000319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/chuckpierce\/article-change-ex\/app\/styles\/main\.scss}line{font-family:\0000320}}
 #ex1Slider .slider-selection {
   background: #BABABA;
   margin-bottom: 30px;
